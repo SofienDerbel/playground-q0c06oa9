@@ -3,8 +3,6 @@
 This Node.js template lets you get started quickly with a simple one-page playground.
 
 ```javascript runnable
-console.log('Hello World!');
-```
 [2,3,4,5].at(1)         // 3 ,  returns you the element with index 1.
 [2,3,4,5].pop()         // [2,3,4] ,  removes the last element.
 [2,3,4,5].push(6)       // [2,3,4,5,6] ,  adds the element at the last position.
@@ -22,6 +20,7 @@ console.log('Hello World!');
 [2,3,4,5].findindex((num) => num > 4 ) // 2 ,  returns the index of a first array element that satisfies the provided condition.
 [2,3,4,5].reduce((acc,num) => acc+num ) // 18 , returns a single value: the function's accumulated result.
 
-# Advanced usage
+```
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
+
+
