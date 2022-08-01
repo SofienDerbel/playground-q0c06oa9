@@ -15,7 +15,7 @@
 [2,3,4,5].some((num) => num > 5 ) // true , tests whether at least one element in the array passes the test implemented by the provided function.
 [2,3,4,5].filter((num) => num > 4 ) // [5,6] , creates a new array filled with elements that pass a test provided by a function.
 [2,3,4,5].every((num) => num > 5 ) // false , executes a function for each array element.
-[2,3,4,5].findindex((num) => num > 4 ) // 2 ,  returns the index of a first array element that satisfies the provided condition.
+[2,3,4,5].findIndex((num) => num > 4 ) // 2 ,  returns the index of a first array element that satisfies the provided condition.
 [2,3,4,5].reduce((acc,num) => acc+num ) // 18 , returns a single value: the function's accumulated result.
 ```
 
